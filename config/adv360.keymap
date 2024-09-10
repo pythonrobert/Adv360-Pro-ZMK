@@ -60,17 +60,17 @@
 
         layer_fn {
             bindings = <
- &trans    &kp F1          &kp F2          &kp F3           &kp F4  &kp F5            &bootloader                                                  &bootloader  &kp F6          &kp F7          &kp F8           &kp F9  &kp F10  &kp F11
- &trans    &trans          &trans    &kp UP_ARROW           &kp F4  &kp F9                &kp END                                                      &kp END  &kp F9          &kp F4    &kp UP_ARROW           &trans   &trans  &kp F12
- &trans    &trans  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp F2               &kp HOME  &trans  &trans                  &trans  &trans     &kp HOME  &kp F2  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW   &trans   &trans
- &trans    &trans          &trans          &trans           &trans  &trans                                  &none                   &none                       &trans           &none           &none           &trans    &none    &none
- &trans  &kp LBKT        &kp RBKT          &trans           &trans                         &trans  &trans  &trans                  &trans  &trans       &trans                  &trans          &trans           &trans   &trans   &trans
+ &trans  &kp F1          &kp F2          &kp F3           &kp F4  &kp F5            &bootloader                                                  &bootloader  &kp F6          &kp F7          &kp F8           &kp F9  &kp F10  &kp F11
+ &trans  &trans          &trans    &kp UP_ARROW           &kp F4  &kp F9                &kp END                                                      &kp END  &kp F9          &kp F4    &kp UP_ARROW           &trans   &trans  &kp F12
+ &trans  &trans  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp F2               &kp HOME  &trans  &trans                  &trans  &trans     &kp HOME  &kp F2  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW   &trans   &trans
+ &trans  &trans          &trans          &trans           &trans  &trans                                 &trans                  &trans                       &trans        &kp LBKT        &kp RBKT           &trans   &trans   &trans
+ &trans  &trans          &trans          &trans           &trans                         &trans  &trans  &trans                  &trans  &trans       &trans                  &trans          &trans           &trans   &trans   &trans
             >;
         };
 
         layer_mod {
             bindings = <
-  &none  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4                             &none                                                                              &trans  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4   &none
+  &none  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4                            &trans                                                                              &trans  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4   &none
   &none         &none         &none         &none         &none         &none                       &bootloader                                                                         &bootloader         &none         &none         &none         &none         &none   &none
   &none         &none         &none         &none         &none         &none            &rgb_ug RGB_MEFS_CMD 5  &bt BT_CLR   &none                  &bt BT_CLR  &bt BT_CLR  &rgb_ug RGB_MEFS_CMD 5         &none         &none         &none         &none         &none   &none
   &none         &none         &none         &none         &none         &none                                                 &none                       &none                                             &none         &none         &none         &none         &none   &none
