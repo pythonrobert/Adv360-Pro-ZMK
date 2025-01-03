@@ -40,11 +40,11 @@
 
         default_layer {
             bindings = <
-           &kp EQUAL     &kp N1    &kp N2          &kp N3           &kp N4  &kp N5              &kp C_MUTE                                                                          &mo 3  &kp N6     &kp N7     &kp N8   &kp N9    &kp N0            &kp MINUS
-             &kp TAB      &kp Q     &kp W           &kp E            &kp R   &kp T            &kp C_VOL_UP                                                                    &kp PAGE_UP   &kp Y      &kp U      &kp I    &kp O     &kp P             &kp BSLH
-      &mt LSHIFT ESC      &kp A   &lt 4 S         &lt 1 D          &lt 2 F   &kp G            &kp C_VOL_DN  &kp DELETE      &none                    &tog 1  &kp RIGHT_ALT  &kp PAGE_DOWN   &kp H    &lt 2 J      &kp K    &kp L  &kp SEMI  &mt RIGHT_SHIFT SQT
-           &kp LSHFT      &kp Z     &kp X           &kp C            &kp V   &kp B                                      &kp SPACE                  &kp RGUI                                 &kp N      &kp M  &kp COMMA  &kp DOT  &kp FSLH             &kp CAPS
- &macro_snippingtool  &kp GRAVE  &kp LGUI  &kp LEFT_ARROW  &kp RIGHT_ARROW                    &kp LEFT_ALT   &kp LCTRL  &kp ENTER                  &kp BSPC      &kp ENTER      &kp SPACE          &kp K_APP      &none    &none     &none                &none
+           &kp EQUAL     &kp N1    &kp N2          &kp N3           &kp N4  &kp N5              &kp C_MUTE                                                                          &mo 3  &kp N6   &kp N7     &kp N8   &kp N9    &kp N0            &kp MINUS
+             &kp TAB      &kp Q     &kp W           &kp E            &kp R   &kp T            &kp C_VOL_UP                                                                    &kp PAGE_UP   &kp Y    &kp U      &kp I    &kp O     &kp P             &kp BSLH
+      &mt LSHIFT ESC      &kp A   &lt 4 S         &lt 1 D          &lt 2 F   &kp G            &kp C_VOL_DN  &kp DELETE      &none                    &tog 1  &kp RIGHT_ALT  &kp PAGE_DOWN   &kp H  &lt 2 J      &kp K    &kp L  &kp SEMI  &mt RIGHT_SHIFT SQT
+           &kp LSHFT      &kp Z     &kp X           &kp C            &kp V   &kp B                                      &kp SPACE                  &kp RGUI                                 &kp N    &kp M  &kp COMMA  &kp DOT  &kp FSLH             &kp CAPS
+ &macro_snippingtool  &kp GRAVE  &kp LGUI  &kp LEFT_ARROW  &kp RIGHT_ARROW                    &kp LEFT_ALT   &kp LCTRL  &kp ENTER                  &kp BSPC      &kp ENTER      &kp SPACE            &none      &none    &none     &none                &none
             >;
         };
 
@@ -60,11 +60,11 @@
 
         layer_fn {
             bindings = <
- &trans  &kp F1          &kp F2          &kp F3           &kp F4  &kp F5            &bootloader                                                  &bootloader  &kp F6          &kp F7          &kp F8           &kp F9  &kp F10  &kp F11
- &trans  &trans          &trans    &kp UP_ARROW           &kp F4  &kp F9                &kp END                                                      &kp END  &kp F9          &kp F4    &kp UP_ARROW           &trans   &trans  &kp F12
- &trans  &trans  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp F2               &kp HOME  &trans  &trans                  &trans  &trans     &kp HOME  &kp F2  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW   &trans   &trans
- &trans  &trans          &trans          &trans           &trans  &trans                                 &trans                  &trans                       &trans        &kp LBKT        &kp RBKT           &trans   &trans   &trans
- &trans  &trans          &trans          &trans           &trans                         &trans  &trans  &trans                  &trans  &trans       &trans                  &trans          &trans           &trans   &trans   &trans
+ &trans  &kp F1          &kp F2          &kp F3           &kp F4  &kp F5            &bootloader                                                  &bootloader         &kp F6          &kp F7          &kp F8           &kp F9  &kp F10  &kp F11
+ &trans  &trans          &trans    &kp UP_ARROW           &kp F4  &kp F9                &kp END                                                      &kp END    &kp PAGE_UP        &kp HOME    &kp UP_ARROW          &kp END   &trans  &kp F12
+ &trans  &trans  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp F2               &kp HOME  &trans  &trans                  &trans  &trans    &kp K_APP  &kp PAGE_DOWN  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW   &trans   &trans
+ &trans  &trans          &trans          &trans           &trans  &trans                                 &trans                  &trans                              &trans        &kp LBKT        &kp RBKT           &trans   &trans   &trans
+ &trans  &trans          &trans          &trans           &trans                         &trans  &trans  &trans                  &trans  &trans       &trans                         &trans          &trans           &trans   &trans   &trans
             >;
         };
 
