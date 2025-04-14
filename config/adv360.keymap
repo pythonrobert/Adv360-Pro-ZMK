@@ -28,7 +28,7 @@
         default_layer {
             display-name = "Base";
             bindings = <
-&kp EQUAL  &kp N1     &kp N2    &kp N3          &kp N4           &kp N5   &kp C_MUTE                                                        &mo 3          &kp N6  &kp N7   &kp N8     &kp N9   &kp N0    &kp MINUS
+&kp EQUAL       &kp N1     &kp N2    &kp N3          &kp N4           &kp N5   &kp C_MUTE                                                        &mo 3          &kp N6  &kp N7   &kp N8     &kp N9   &kp N0    &kp MINUS
 &kp TAB         &kp Q      &kp W     &kp E           &kp R            &kp T    &kp C_VOL_UP                                                      &kp PAGE_UP    &kp Y   &kp U    &kp I      &kp O    &kp P     &kp BSLH
 &mt LSHIFT ESC  &kp A      &lt 4 S   &lt 1 D         &lt 2 F          &lt 5 G  &kp C_VOL_DN  &kp DELETE  &mo 3          &tog 1    &kp RIGHT_ALT  &kp PAGE_DOWN  &kp H   &lt 2 J  &kp K      &kp L    &kp SEMI  &mt RIGHT_SHIFT SQT
 &kp LSHFT       &kp Z      &kp X     &kp C           &kp V            &kp B                              &kp SPACE      &kp RGUI                                &kp N   &kp M    &kp COMMA  &kp DOT  &kp FSLH  &kp CAPS
@@ -41,7 +41,7 @@
 &trans  &trans  &trans          &trans          &trans           &trans  &kp C_MUTE                                                &mo 3                 &kp KP_NUM  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &trans  &trans     &trans
 &trans  &trans  &trans          &kp UP_ARROW    &kp F4           &kp F9  &kp C_VOLUME_UP                                           &kp C_BRIGHTNESS_INC  &kp FSLH    &kp N7            &kp N8             &kp N9  &kp ASTRK  &trans
 &trans  &trans  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp F2  &kp C_VOLUME_DOWN  &trans  &trans      &trans  &kp EQUAL  &kp C_BRIGHTNESS_DEC  &kp MINUS   &kp N4            &kp N5             &kp N6  &kp PLUS   &trans
-&trans  &trans  &trans          &trans          &trans           &trans                             &trans      &trans                                   &trans      &kp N1            &kp N2             &kp N3  &kp DOT    &trans
+&trans  &trans  &trans          &trans          &trans           &trans                             &trans      &trans                                   &kp COMMA   &kp N1            &kp N2             &kp N3  &kp DOT    &trans
 &trans  &trans  &trans          &trans          &trans                   &trans             &trans  &trans      &trans  &trans     &kp N0                            &kp LBKT          &kp RBKT           &trans  &trans     &trans
             >;
         };
