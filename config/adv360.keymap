@@ -48,11 +48,11 @@
 
         layer_fn {
             bindings = <
-&trans  &kp F1  &kp F2          &kp F3          &kp F4           &kp F5  &bootloader                                      &bootloader  &kp F6         &kp F7          &kp F8          &kp F9           &kp F10  &kp F11
-&trans  &trans  &trans          &kp UP_ARROW    &kp F4           &kp F9  &kp END                                          &trans       &kp PAGE_UP    &kp HOME        &kp UP_ARROW    &kp END          &trans   &kp F12
-&trans  &trans  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp F2  &kp HOME     &trans  &trans      &trans  &trans  &kp K_APP    &kp PAGE_DOWN  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans   &trans
-&trans  &trans  &trans          &trans          &trans           &trans                       &trans      &trans                       &kp K_APP      &kp LBKT        &kp RBKT        &trans           &trans   &trans
-&trans  &trans  &trans          &trans          &trans                   &trans       &trans  &trans      &trans  &trans  &trans                      &trans          &trans          &trans           &trans   &trans
+&trans  &kp F1  &kp F2          &kp F3          &kp F4           &kp F5  &bootloader                                      &bootloader  &kp F6         &kp F7          &kp F8          &kp F9           &kp F10            &kp F11
+&trans  &trans  &trans          &kp UP_ARROW    &kp F4           &kp F9  &kp END                                          &trans       &kp PAGE_UP    &kp HOME        &kp UP_ARROW    &kp END          &kp K_SCROLL_UP    &kp F12
+&trans  &trans  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp F2  &kp HOME     &trans  &trans      &trans  &trans  &kp K_APP    &kp PAGE_DOWN  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp K_SCROLL_DOWN  &trans
+&trans  &trans  &trans          &trans          &trans           &trans                       &trans      &trans                       &kp K_APP      &kp LBKT        &kp RBKT        &trans           &trans             &trans
+&trans  &trans  &trans          &trans          &trans                   &trans       &trans  &trans      &trans  &trans  &trans                      &trans          &trans          &trans           &trans             &trans
             >;
         };
 
@@ -70,7 +70,7 @@
             bindings = <
 &trans  &trans  &trans  &trans  &trans  &trans  &trans                                      &trans  &trans  &kp F10  &kp F11  &kp F12  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans  &trans                                      &trans  &trans  &kp F7   &kp F8   &kp F9   &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &none   &kp F4   &kp F5   &kp F6   &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &kp F4   &kp F5   &kp F6   &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans                  &trans      &trans                  &trans  &kp F1   &kp F2   &kp F3   &trans  &trans
 &trans  &trans  &trans  &trans  &trans          &trans  &trans  &trans      &trans  &trans  &trans          &trans   &trans   &trans   &trans  &trans
             >;
@@ -81,7 +81,7 @@
 &trans  &trans  &trans  &trans  &trans  &trans  &trans                                      &trans  &trans          &trans          &trans          &trans           &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans  &trans                                      &trans  &msc SCRL_UP    &mkp LCLK       &mmv MOVE_UP    &mkp RCLK        &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &msc SCRL_DOWN  &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans                  &trans      &trans                  &trans          &trans          &trans          &trans           &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans                  &trans      &trans                  &trans          &msc SCRL_LEFT  &trans          &msc SCRL_RIGHT  &trans  &trans
 &trans  &trans  &trans  &trans  &trans          &trans  &trans  &trans      &trans  &trans  &trans                  &trans          &trans          &trans           &trans  &trans
             >;
         };
