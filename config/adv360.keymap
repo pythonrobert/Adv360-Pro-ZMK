@@ -25,7 +25,7 @@
     combos {
         compatible = "zmk,combos";
 
-        D+FKeypadToggle {
+        DFKeypadToggle {
             bindings = <&tog 2>;
             key-positions = <32 31>;
         };
