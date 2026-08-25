@@ -45,7 +45,7 @@
             >;
         };
 
-        L6_HRM {
+        L1_HRM {
             bindings = <
 &trans  &trans          &trans          &trans              &trans            &trans  &trans                                      &trans  &trans  &trans             &trans               &trans           &trans                   &trans
 &trans  &trans          &lt 5 W         &lt 2 E             &lt 3 R           &trans  &trans                                      &trans  &trans  &lt 3 U            &trans               &trans           &trans                   &trans
@@ -55,7 +55,7 @@
             >;
         };
 
-        L1_Keypad {
+        L2_Keypad {
             bindings = <
 &trans  &trans  &trans          &trans          &trans           &trans  &kp C_MUTE                                                &mo 4                 &kp KP_NUM  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp SCROLLLOCK  &trans     &trans
 &trans  &trans  &trans          &kp UP_ARROW    &kp F4           &kp F9  &kp C_VOLUME_UP                                           &kp C_BRIGHTNESS_INC  &kp FSLH    &kp N7            &kp N8             &kp N9          &kp ASTRK  &trans
@@ -65,7 +65,7 @@
             >;
         };
 
-        L2_NAV {
+        L3_NAV {
             bindings = <
 &trans  &kp F1  &kp F2          &kp F3          &kp F4           &kp F5  &bootloader                                      &bootloader  &kp F6         &kp F7          &kp F8          &kp F9           &kp F10    &kp F11
 &trans  &trans  &trans          &kp UP_ARROW    &kp F4           &kp F9  &kp END                                          &trans       &kp PAGE_UP    &kp HOME        &kp UP_ARROW    &kp END          &trans     &kp F12
@@ -75,7 +75,7 @@
             >;
         };
 
-        L3_MOD {
+        L4_MOD {
             bindings = <
 &none   &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4  &trans                                                                 &trans                  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4  &none
 &none   &none         &none         &none         &none         &none         &bootloader                                                            &bootloader             &none         &none         &none         &none         &none         &none
@@ -85,7 +85,7 @@
             >;
         };
 
-        L4_FN_KP {
+        L5_FN_KP {
             bindings = <
 &trans  &trans  &trans  &trans  &trans  &trans  &trans                                      &trans  &trans  &kp F10  &kp F11  &kp F12  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans  &trans                                      &trans  &trans  &kp F7   &kp F8   &kp F9   &trans  &trans
@@ -95,7 +95,7 @@
             >;
         };
 
-        L5_Mouse {
+        L6_Mouse {
             bindings = <
 &trans  &trans  &trans  &trans  &trans  &trans  &trans                                      &trans  &trans          &trans          &trans          &trans           &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans  &trans                                      &trans  &msc SCRL_UP    &mkp LCLK       &mmv MOVE_UP    &mkp RCLK        &trans  &trans
