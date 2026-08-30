@@ -28,7 +28,7 @@
         DFKeypadToggle {
             bindings = <&tog 2>;
             key-positions = <32 31>;
-            layers = <0 2 3 4 5 6 7>;
+            layers = <0 2>;
         };
     };
 
