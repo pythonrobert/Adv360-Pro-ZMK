@@ -25,10 +25,15 @@
     combos {
         compatible = "zmk,combos";
 
-        DFKeypadToggle {
+        D+F_KeypadToggle {
             bindings = <&tog 2>;
             key-positions = <32 31>;
             layers = <0 2>;
+        };
+
+        E+R_Mute {
+            bindings = <&kp C_MUTE>;
+            key-positions = <17 18>;
         };
     };
 
