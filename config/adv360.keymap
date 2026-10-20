@@ -31,9 +31,9 @@
             layers = <0 2>;
         };
 
-        er_Mute {
+        fg_Mute {
             bindings = <&kp C_MUTE>;
-            key-positions = <17 18>;
+            key-positions = <33 32>;
         };
     };
 
